@@ -1,8 +1,12 @@
 
+import 'package:emartapps/view/cart/cart.dart';
 import 'package:emartapps/view/homescreen/controller/home_controller.dart';
+import 'package:emartapps/view/profile/profile.dart';
 import 'package:get/get.dart';
 
 import '../../consts/consts.dart';
+import '../categroity/catrgority.dart';
+import '../home/home.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -24,10 +28,11 @@ class _HomeScreenState extends State<HomeScreen> {
 
     ];
     var navBody=[
-      Container(color: Colors.red,),
-      Container(color: Colors.grey,),
-      Container(color: Colors.green,),
-      Container(color: Colors.red,),
+      Home(),
+      Categority(),
+      Cart(),
+      Profile(),
+
     ];
     return Scaffold(
       bottomNavigationBar: Obx(

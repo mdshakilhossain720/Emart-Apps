@@ -1,5 +1,9 @@
 
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+
+import 'consts/style.dart';
+import 'view/solash_screen/splash_screen.dart';
 
 
 void main() {
@@ -11,9 +15,18 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       title: 'EmartApps',
-      theme: ThemeData(),
+      theme: ThemeData(
+        scaffoldBackgroundColor: Colors.transparent,
+        appBarTheme: AppBarTheme(
+          backgroundColor: Colors.transparent,
+
+        ),
+        fontFamily: regular,
+
+      ),
+      home: SplashScreen(),
     );
   }
 }

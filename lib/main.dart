@@ -1,4 +1,5 @@
 
+import 'package:emartapps/consts/consts.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -18,10 +19,13 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       title: 'EmartApps',
       theme: ThemeData(
+
         scaffoldBackgroundColor: Colors.transparent,
         appBarTheme: AppBarTheme(
           backgroundColor: Colors.transparent,
-
+     iconTheme: IconThemeData(
+       color: darkFontGrey,
+     )
         ),
         fontFamily: regular,
 

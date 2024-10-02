@@ -77,7 +77,7 @@ class Home extends StatelessWidget {
                       itemBuilder: (context, index) {
                         return Image.asset(
                           secondSliderList[index],
-                          fit: BoxFit.fitWidth,
+                          fit: BoxFit.fill,
                         )
                             .box
                             .rounded

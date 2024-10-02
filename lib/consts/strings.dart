@@ -25,7 +25,24 @@ const searchthing = "Searching anything ...",
     topCategories = "Top Categories",
     featureCategories = "FeaturiesCatgeies",
     topSellers = "Top Sellers",
-tShart="Tshart",
-grilsDress="Grils Dress",
-featureProduct="Featured Product",
-    topBrand = 'Top Brand',womenDress="Womend Dress", girlsWatch="GrilsWatch",mobilePhone="MobilePhone",boyGlasses="Boys Glasses";
+    tShart = "Tshart",
+    grilsDress = "Grils Dress",
+    featureProduct = "Featured Product",
+    topBrand = 'Top Brand',
+    womenDress = "Womend Dress",
+    girlsWatch = "GrilsWatch",
+    mobilePhone = "MobilePhone",
+    boyGlasses = "Boys Glasses";
+
+
+// categroies
+
+const womenClothing="women Clothing",
+    menCLothingFashion="Men Clothing & Fashion",
+    comAcccess="Computer & Accessories",
+    autmation="Automation",
+    kidtoys="Kids & Toys",
+    sports="Sports",
+    jewlery="Jewelry",
+    cellphone="CellPhone & Tab",
+    furniture="Furniture";

@@ -31,15 +31,22 @@ const CategoriList = [
   furniture,
 ];
 
-const categoriesImgages=[
+const categoriesImgages = [
   imgFc1,
   imgFc2,
   imgFc3,
   imgFc4,
   imgFc5,
   imgFc6,
-  imgFc7,imgFc8,
+  imgFc7, imgFc8,
   imgFc9,
 
 
 ];
+
+//item
+
+const itemDetailsList=[video,review, sellerpolicy,returnPolicy, supportPolicy,];
+
+const profileButton=[wishList,orders,message];
+const profileButtonIcon=[icOrder,icOrders,icMessages];

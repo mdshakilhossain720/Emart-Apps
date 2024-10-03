@@ -46,3 +46,16 @@ const womenClothing="women Clothing",
     jewlery="Jewelry",
     cellphone="CellPhone & Tab",
     furniture="Furniture";
+
+// item deatisl list
+
+const video = "Video",
+    review = "Review",
+    sellerpolicy = "Selle Policy",
+    returnPolicy = "ReturnPolicy",
+
+    supportPolicy = "Suppoer Policy";
+
+// profile
+
+const wishList="My WishList",orders="My Orders",message="Message";
